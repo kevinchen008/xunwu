@@ -7,6 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class XunwuApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(XunwuApplication.class, args);
+		              SpringApplication.run(XunwuApplication.class, args);
 	}
 }
