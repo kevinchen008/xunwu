@@ -15,7 +15,9 @@ import javax.persistence.EntityManagerFactory;
 import javax.sql.DataSource;
 
 @Configuration
-@EnableJpaRepositories
+@EnableJpaRepositories(basePackages = "com.zku.xunwu.repositorys"
+        ,entityManagerFactoryRef = "entityManagerFactory",
+        transactionManagerRef = "transactionManager")
 @EnableTransactionManagement
 public class JPAConfig {
 
